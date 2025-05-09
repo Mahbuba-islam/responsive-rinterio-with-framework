@@ -115,50 +115,94 @@
 
     <!-- main -->
    <main>
-    <section class="bg-slate-300">
+    <section class="bg-slate-300 lg:py-12 my-16 ">
         <div class="container mx-auto">
          
-          <div class="hero">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-              <img
+          <div class="hero ">
+            <div class="hero-content flex-col-reverse lg:flex-row-reverse bg-slate-300 ">
+              <!-- img content -->
+              <div class=" flex-1 lg:px-4 lg:mt-14 px-4">
+                <img
                 src="./assets/Rectangle.png"
-                class="max-w-sm rounded-lg shadow-2xl"
+                class=" rounded-lg shadow-2xl lg:h-[520px] object-cover w-[700px] h-[350px] "
               />
-              <div>
+              </div>
+               <!-- text content -->
+              <div class="flex-1 lg:px-4 text-center lg:text-left">
                 <div class="space-y-4">
-                  <img class="-translate-x-12" src="./assets/Vector.png" alt="">
+                  <img  class="-translate-x-12 hidden lg:block" src="./assets/Vector.png" alt="">
                 <button class="bg-white px-4 rounded-full py-2 font-semibold mb-4">
               <i class="fa-solid fa-circle-arrow-right pr-2"></i>About US
               </button>
                 </div>
                
-                <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
-                <p class="py-6">
+                <h1 class="lg:text-4xl text-2xl font-bold px-8 lg:px-0">We design thoughtful, liveable spaces</h1>
+                <p class="py-6 px-16 lg:px-0">
                   The barn house captivates with its blend of rustic charm and 
                   modern sophistication, featuring weathered wood, sleek metal accents.
                 </p>
-                <button class="btn btn-primary">Get Started</button>
-              </div>
-            </div>
-          </div>
-         <!-- simple card  -->
-          <div class="space-y-4">
+               
+                 <!-- simple card  -->
+          <div class=" mx-auto flex lg:flex-col sm:flex-col md:flex-row ">
                 <!-- card-1 -->
-            <div class="card w-96 bg-base-100 card-xs shadow-sm ">
-              <div class="card-body">
-                <h2 class="card-title">Commercial</h2>
-                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              <div class="card bg-base-100 card-xs shadow-sm flex flex-row justify-center items-center lg:px-8 
+             px-4 py-2  space-x-2  lg:w-lg flex-1 w-[200px] ">
+              <!-- card-icon-img -->
+              <div>
+              <img  src="./assets/commercial.png" alt="">
+              </div>
+              <!-- card-text -->
+              <div class="card-body text-left">
+                <h2 class="card-title text-lg font-semibold">Commercial</h2>
+                <p class="lg:text-sm lg:w-72 ">The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
             </div>
               <!-- card-2 -->
-            <div class="card w-96 bg-base-100 card-sm shadow-sm">
-              <div class="card-body">
-                <h2 class="card-title">Residential</h2>
-                <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                </div>
+           <div class="card bg-base-100 card-xs shadow-sm flex flex-row justify-center items-center lg:px-8 px-4
+            py-2 space-x-2  lg:w-lg flex-1 ">
+              <!-- card-icon-img -->
+              <div>
+              <img  src="./assets/residential.png" alt="">
+              </div>
+              <!-- card-text -->
+              <div class="card-body text-left">
+                <h2 class="card-title text-lg font-semibold">Residential</h2>
+                <p class="lg:text-sm lg:w-72">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            
+          </div>
+              </div>
             </div>
           </div>
-         
+        
+         <!-- review card -->
+          <div class="card bg-white shadow-sm w-[335px] mx-auto rounded-xl">
+            <!-- card-1 -->
+  <div class="card-body mx-auto">
+    <i class="fa-regular fa-message text-5xl "></i>
+    <h2 class="card-title font-bold text-4xl ">235+</h2>
+    <p class="text-lg">Happy Client Review</p>
+   </div>
+   <!-- card-2 -->
+  <div class="card-body mx-auto">
+   <i class="fa-regular fa-building text-5xl"></i>
+    <h2 class="card-title font-bold text-4xl ">235+</h2>
+    <p class="text-lg">Happy Client Review</p>
+   </div>
+   <!-- card-3 -->
+  <div class="card-body mx-auto">
+   <i class="fa-solid fa-users text-5xl"></i>
+    <h2 class="card-title font-bold text-4xl ">235+</h2>
+    <p class="text-lg">Happy Client Review</p>
+   </div>
+   <!-- card-4 -->
+  <div class="card-body mx-auto">
+    <i class="fa-solid fa-user-group t"></i>
+    <h2 class="card-title font-bold text-4xl ">235+</h2>
+    <p class="text-lg">Happy Client Review</p>
+   </div>
+</div>
           
          
           
